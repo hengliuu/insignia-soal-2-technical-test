@@ -118,7 +118,7 @@ export default function Home() {
                 showDividers={false}
               />
               <ActivitySection
-                titleFontSize="25"
+                titleFontSize="25px"
                 activityData={activityData}
                 firstGridPadding={5}
                 imageWidth={100}

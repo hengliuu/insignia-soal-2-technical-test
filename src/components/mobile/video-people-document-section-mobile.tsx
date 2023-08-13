@@ -28,7 +28,7 @@ export default function VideoPeopleDocumentSectionMobile(props: Props) {
       <Grid container item xs={12} paddingTop={3}>
         <Grid container item xs={6}>
           <Typography
-            fontSize="20px"
+            fontSize="25px"
             fontWeight="bold"
             flexGrow={1}
             color="#0d47a1"

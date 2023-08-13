@@ -14,7 +14,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 
 const style = {
   position: "absolute" as "absolute",
-  top: "30%",
+  top: "40%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "90%",
