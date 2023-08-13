@@ -80,7 +80,6 @@ export default function HamburgerModal(props: HamburgerModalProps) {
                     color: "black",
                     fontWeight: "normal",
                     textDecoration: "none",
-                    cursor: "pointer",
                     width: "100%",
                     textAlign: "center",
                     transition: "box-shadow 0.3s ease",

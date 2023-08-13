@@ -12,7 +12,7 @@ import UserInfoModal from "./user-info-modal";
 type Props = {};
 
 export default function MobileHeader({}: Props) {
-  const [openHamburgerModal, setOpenHamburgerModal] = useState(true);
+  const [openHamburgerModal, setOpenHamburgerModal] = useState(false);
   const [openUserInfoModal, setOpenUserInfoModal] = useState(false);
   const headerListData: { header_list_name: string; url: string }[] =
     DummyHeader();
