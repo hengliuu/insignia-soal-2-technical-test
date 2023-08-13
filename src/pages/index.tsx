@@ -95,7 +95,7 @@ export default function Home() {
               color="#0d47a1"
               paddingTop={3}
             >
-              Let's Get Started!
+              Lets Get Started!
             </Typography>
           </Grid>
           {matches ? (
