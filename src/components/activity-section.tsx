@@ -1,8 +1,6 @@
 import {
-  Box,
   Card,
   CardActionArea,
-  CardContent,
   CardMedia,
   Grid,
   IconButton,

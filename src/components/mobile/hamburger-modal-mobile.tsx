@@ -33,10 +33,6 @@ const style = {
 export default function HamburgerModal(props: HamburgerModalProps) {
   const router = useRouter();
 
-  const navigation = (url: string) => {
-    router.push(url);
-  };
-
   return (
     <Box>
       <Modal
@@ -74,25 +70,21 @@ export default function HamburgerModal(props: HamburgerModalProps) {
                 paddingBottom={5}
                 justifyContent={"center"}
               >
-                {/* <CustomButton
-                  text={data.header_list_name}
-                  styleHover={"#f5f5f5"}
-                  styleBackground={"#ffffff"}
-                  borderRadius={0}
-                  textColor="black"
-                  justifyContent="start"
-                  onClick={() => {
-                    router.push(`/#${data.url}`);
-                    props.onClose();
-                  }}
-                /> */}
                 <ScrollLink
                   to={data.url}
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  style={{ padding: 2, justifyContent: "center" }}
+                  style={{
+                    color: "black",
+                    fontWeight: "normal",
+                    textDecoration: "none",
+                    cursor: "pointer",
+                    width: "100%",
+                    textAlign: "center",
+                    transition: "box-shadow 0.3s ease",
+                  }}
                   onClick={() => {
                     router.push(`/#${data.url}`);
                     props.onClose();

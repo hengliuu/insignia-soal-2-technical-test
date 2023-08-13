@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "./header";
 import Head from "next/head";
-import { Grid, useMediaQuery, useTheme } from "@mui/material";
+import { Grid, useTheme } from "@mui/material";
 import Footer from "./footer";
 
 export default function Layout({ children }: any) {
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up("sm"));
 
   return (
     <Grid>
